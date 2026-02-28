@@ -20,3 +20,59 @@
     }
   ]
 }
+
+{
+  "Perfis de Investidores": [
+    {
+      "perfil": "Conservador",
+      "caracteristicas": [
+        "Prioriza segurança e preservação do capital",
+        "Baixa tolerância a oscilações",
+        "Prefere previsibilidade",
+        "Foco em estabilidade"
+      ],
+      "comportamento": [
+        "Desconforto com qualquer perda",
+        "Tendência a resgatar investimento ao perceber queda"
+      ],
+      "horizonte_investimento": [
+        "Curto a médio prazo",
+        "Até 2 anos"
+      ]
+    },
+    {
+      "perfil": "Moderado",
+      "caracteristicas": [
+        "Busca equilíbrio entre segurança e rentabilidade",
+        "Aceita oscilações moderadas",
+        "Entende que risco pode gerar maior retorno"
+      ],
+      "comportamento": [
+        "Tolera quedas moderadas",
+        "Mantém investimento se acreditar no longo prazo"
+      ],
+      "horizonte_investimento": [
+        "Médio a longo prazo",
+        "De 2 a 5 anos"
+      ]
+    },
+    {
+    "Peril": "Arrojado",
+    "caracteristicas": [
+      "Alta tolerância ao risco",
+      "Foco em crescimento patrimonial",
+      "Confortável com volatilidade",
+      "Visão de longo prazo"
+    ],
+    "comportamento": [
+      "Entende quedas como parte do processo",
+      "Mantém estratégia mesmo com oscilações"
+    ],
+    "horizonte_investimento": [
+      "Longo prazo",
+      "Mais de 5 anos"
+    ]
+    }
+  ]
+}
+  
