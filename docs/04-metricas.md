@@ -22,29 +22,28 @@ A avaliação pode ser feita de duas formas complementares:
 
 ---
 
-## Exemplos de Cenários de Teste
-
-Crie testes simples para validar seu agente:
+## Cenários de Teste
 
 ### Teste 1: Consulta de gastos
-- **Pergunta:** "Quanto gastei com alimentação?"
+- **Pergunta:** "Quanto gastei com farmácia?"
 - **Resposta esperada:** Valor baseado no `transacoes.csv`
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [ x ] Correto  [ ] Incorreto
 
 ### Teste 2: Recomendação de produto
 - **Pergunta:** "Qual investimento você recomenda para mim?"
-- **Resposta esperada:** Produto compatível com o perfil do cliente
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resposta esperada:** Produto compatível com o perfil do cliente, mas lembrando de consultar um profissional
+- **Resultado:** [ x ] Correto  [ ] Incorreto
 
 ### Teste 3: Pergunta fora do escopo
 - **Pergunta:** "Qual a previsão do tempo?"
 - **Resposta esperada:** Agente informa que só trata de finanças
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [ ] Correto  [ x ] Incorreto
+- **O que ocorreu:** Ele deu uma resposta de recomendação sem mencionar o que foi perguntado
 
-### Teste 4: Informação inexistente
-- **Pergunta:** "Quanto rende o produto XYZ?"
-- **Resposta esperada:** Agente admite não ter essa informação
-- **Resultado:** [ ] Correto  [ ] Incorreto
+### Teste 4: Informação de perfil
+- **Pergunta:** "Qual é meu perfil de investido?"
+- **Resposta esperada:** Ele traça o seu perfil de investidor
+- **Resultado:** [ x ] Correto  [ ] Incorreto
 
 ---
 
@@ -56,7 +55,7 @@ Após os testes, registre suas conclusões:
 - [Liste aqui]
 
 **O que pode melhorar:**
-- [Liste aqui]
+- As resposta são longas e repetitivas
 
 ---
 
